@@ -1,0 +1,14 @@
+{
+  "name": "json-db",
+  "version": "0.0.1",
+  "description": "",
+  "author": "Philipp Spieß <philipp.spiess@myxcode.at>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philipp-spiess/json-db.git"
+  },
+  "main": "index",
+  "scripts": {
+    "test": "node test/common.js"
+  }
+}

@@ -21,6 +21,8 @@ It uses an HTTP request to handle the data transfer and saves objects as `.json`
 
 Sure. Json-db is a fully RESTful json-only database. it stores items in collections, each collection can be seen as an JSON array.
 
+## List All ##
+
 With the basic namespace, a collection can be accessed this way:
 
     GET /node-js/collection
@@ -31,6 +33,8 @@ This will respond something like this
       "foo":"bar",
 	  "_id","224810f50e57edef3bc048297e81"
     }]
+
+## Push Item ##
 
 To push a new row to this collection, simply send a POST with some JSON in it.
 

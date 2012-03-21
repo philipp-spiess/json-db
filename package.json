@@ -1,13 +1,25 @@
 {
   "name": "json-db",
   "version": "0.0.1",
-  "description": "",
+  "description": "A lightweight database for your node.js app.",
+  "homepage":"https://github.com/philipp-spiess/json-db", 
+  "keywords": [
+  	"database", 
+  	"json-db", 
+  	"json", 
+  	"db", 
+  	"no-sql", 
+  	"nosql"
+  ],
   "author": "Philipp Spieß <philipp.spiess@myxcode.at>",
   "repository": {
     "type": "git",
     "url": "https://github.com/philipp-spiess/json-db.git"
   },
   "main": "index",
+  "engines": { 
+  	"node": ">= 0.6.0" 
+  	},
   "scripts": {
     "test": "node test/common.js"
   }

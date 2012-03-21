@@ -48,7 +48,7 @@ Followed by this response
 	  "_id","224810f50e57edef3bc048297e81"
 	}}
 
-## Authentification please ##
+## Authentication please ##
 
 Well, check this out: [Basic access authentication](http://en.wikipedia.org/wiki/Basic_access_authentication)
 

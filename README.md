@@ -17,7 +17,7 @@ It uses an HTTP request to handle the data transfer and saves objects as `.json`
   - Update
   - Peak
 
-# A bit more detail please #
+# A bit more detail please :trollface: #
 
 Sure. Json-db is a fully RESTful json-only database. it stores items in collections, each collection can be seen as an JSON array.
 

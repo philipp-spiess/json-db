@@ -22,7 +22,7 @@ db.client(function(client) {
    * list al items
    */
   test.all(function(err, obj) {
-    console.log(obj)
+    //console.log(obj)
 
     /**
      * push two new item
@@ -39,7 +39,15 @@ db.client(function(client) {
 	     * list all items again
 	     */
 	    test.all(function(err, obj) {
-	    	console.log(obj)
+	    	//console.log(obj)
+
+        if(obj.length >= 2) {
+          console.log('          Success. Two items pushed.')
+        } else {
+          console.log('          Failed.')
+        }
+
+        db.close()
 	    })
 
     }, 1000)

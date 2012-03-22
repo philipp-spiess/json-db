@@ -1,4 +1,4 @@
-# json-db #
+# json-db [![Build Status](https://secure.travis-ci.org/philipp-spiess/json-db.png?branch=master)](http://travis-ci.org/philipp-spiess/json-db) #
 
 Json-db is lightweight database for your node.js app.
 

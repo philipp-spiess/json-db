@@ -2,7 +2,7 @@
 
 Json-db is a lightweight database for your node.js-powered app.
 
-It uses an HTTP request to handle the data transfer and saves objects as `.json` files to your hard drive and comes with absolutly no dependencies. Pure Javascript. Yeah.
+It uses an HTTP request to handle the data transfer and saves objects as `.json` files to your hard drive and comes with absolutely no dependencies. Pure Javascript. Yeah.
 
 # Implemented Yet #
 
